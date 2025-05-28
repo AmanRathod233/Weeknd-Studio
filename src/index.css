@@ -1,0 +1,76 @@
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('../public/Fonts/HelveticaNowDisplay-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display Bold';
+  src: url('../public/Fonts/HelveticaNowDisplay-ExtraBold.ttf');
+}
+
+
+.font-times {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* @media screen and (max-width:600px){
+  body{
+    padding: 0px 15px;
+  }
+} */
+
+@keyframes continuousScroll {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-marquee-rtl{
+  animation: continuousScroll 10s linear infinite;
+}
+
+
+:root {
+  --primary-color: #FF4202;
+}
+
+
+
+
+@import "tailwindcss";
+
+
+@layer components {
+  /* body{
+    padding:0px 15px;
+  } */
+  .container-header {
+    max-width: 776px !important;
+  }
+
+ .font-prime {
+  font-family: 'Helvetica Now Display';
+  font-size:18px;
+}
+
+.font-prime1{
+  font-family: 'Helvetica Now Display Bold';
+}
+
+
+
+
+.text-primary {
+    color: var(--primary-color);
+  }
+
+  .bg-primary {
+    background-color: var(--primary-color);
+  }
+
+}
