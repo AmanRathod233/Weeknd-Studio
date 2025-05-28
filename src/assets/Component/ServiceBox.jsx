@@ -11,7 +11,7 @@ export default function ServiceBox({ title, description, iconSrc, imageSrc }) {
   initial={{ opacity: 0, y: 50 }}
   animate={inView ? { opacity: 1, y: 0 } : {}}
   transition={{ duration: 0.6, ease: "easeOut" }}
-  className="sticky top-0 my-10 flex items-center justify-center"
+  className="sticky top-[20%] my-10 flex items-center justify-center"
 >
   
   <div className="w-full max-w-6xl service_box border border-[#DFDFDF] p-6 md:p-10 rounded-[20px] bg-white">

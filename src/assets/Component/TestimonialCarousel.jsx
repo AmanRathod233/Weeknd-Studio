@@ -85,7 +85,7 @@ export default function TestimonialCarousel() {
                   </div>
                 </div>
                 <div className="p-[25px] text-left">
-                  <h3 className="font-prime1 text-black text-[20px] md:text-[24px] lg:text-[26px] pb-[10px]">
+                  <h3 className="font-prime font-bold text-black text-[20px] md:text-[24px] lg:text-[26px] pb-[10px]">
                     {t.name}
                   </h3>
                   <p className="text-[16px] font-prime text-[#606060]">

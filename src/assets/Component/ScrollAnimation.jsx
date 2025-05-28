@@ -22,7 +22,7 @@ const MotionFadeIn = ({
 
    
     slideDownFade: { opacity: isInView ? 1 : 0, y: isInView ? 0 : -10 },
-    slideUpFade: { opacity: isInView ? 1 : 0, y: isInView ? 0 : 40 },
+    slideUpFade: { opacity: isInView ? 1 : 0, y: isInView ? 0 : 30 },
     slideLeftFade: { opacity: isInView ? 1 : 0, x: isInView ? 0 : -50 },
     zoomFade: { opacity: isInView ? 1 : 0, scale: isInView ? 1 : 0.9 },
   };

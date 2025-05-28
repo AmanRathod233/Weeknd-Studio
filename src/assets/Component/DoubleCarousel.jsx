@@ -30,7 +30,7 @@ export default function DoubleCarousel() {
   return (
     
        
-      <div className="w-full max-w-[95%] lg:max-w-[1240px] mx-auto rounded-[15px] sm:rounded-[40px] overflow-hidden mb-[100px]">
+      <div className="w-full max-w-[91.50%] lg:max-w-[1240px] mx-auto rounded-2xl sm:rounded-[40px] overflow-hidden mb-[100px]">
         <ImageSlider slides={slides} />
         
         <MarqueeSlider

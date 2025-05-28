@@ -10,7 +10,7 @@ export default function Cta() {
                         <h3 className="title px-4 py-2 inline-block border border-[#757575] text-[#171717] rounded-xl font-prime text-base sm:text-lg leading-7">
                             Let’s Work Together
                         </h3>
-                        <h4 className="subtitle text-3xl sm:text-4xl md:text-5xl font-prime1 text-[#171717] mt-4">
+                        <h4 className="subtitle text-3xl sm:text-4xl md:text-5xl font-prime font-bold text-[#171717] mt-4">
                             Are You Ready?
                         </h4>
                         <p className="heading_detail text-[#606060] text-sm sm:text-base md:text-lg font-prime leading-6 sm:leading-7 mt-4 max-w-3xl mx-auto px-4 sm:px-0">

@@ -8,7 +8,7 @@ const HeroBlock = ({ title, description, imageUrl }) => {
           <h1 className="font-prime font-[700] text-[35px] md:text-[55px] xl:text-[60px] 2xl:text-[74px] leading-[48px] md:leading-[84px] pb-2 text-[#171717]">
             {title}
           </h1>
-          <p className="font-prime text-[16px] md:text-[19px] text-[#171717]">
+          <p className="font-prime text-[15px] md:text-[19px] text-[#171717]">
             {description}
           </p>
         </div>

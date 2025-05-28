@@ -57,8 +57,8 @@ function Home() {
         <>
         
             <Header />
-             <MotionFadeIn animation="slideUpFade" delay={0.5} duration={2}>
-            <section className="hero_section flex justify-center align-middle mt-[60px] lg:mt-[150px] md:mt-[120px] 2xl:mt-[180px] mb-[35px] lg:mb-[67px]">
+             <MotionFadeIn animation="slideUpFade" delay={0.5} duration={1}>
+            <section className="hero_section flex justify-center align-middle mt-[80px] lg:mt-[150px] md:mt-[120px] 2xl:mt-[180px] mb-[35px] lg:mb-[67px]">
                 <div className="container mx-auto">
                     <img src={heroImage} alt="Hero_Section" className="h-[300px] sm:h-[475px] xl:h-[550px] 2xl:h-[787px] w-full object-contain" draggable="false"/>
                 </div>

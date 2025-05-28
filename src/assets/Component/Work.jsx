@@ -31,7 +31,7 @@ export default function Work() {
     return (
         <>
             <MotionFadeIn animation="slideUpFade" delay={0.5} duration={0.8}>
-                <section className="work pb-[100px] md:pb-[140px] 2xl:pb-[200px] px-4 scroll-mt-[170px]" id="Portfolio">
+                <section className="work pb-[50px] px-4 scroll-mt-[170px]" id="Portfolio">
                     <div className="container max-w-[1240px] mx-auto">
                         <div className="service_heading text-center pb-10 sm:pb-12 md:pb-16">
                             <h3 className="title px-4 py-2 inline-block border border-[#757575] text-[#757575] rounded-xl font-prime text-base sm:text-lg leading-7">

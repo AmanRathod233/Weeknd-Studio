@@ -18,7 +18,7 @@ export default function ImageSlider({ slides }) {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true }}
-      className="overflow-hidden"
+      className="overflow-hidden"  
     >
       <motion.img
         key={currentImage}
