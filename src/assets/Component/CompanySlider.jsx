@@ -37,8 +37,7 @@ export default function CompanySlider() {
   ];
 
   return (   
-  <MotionFadeIn animation="slideUpFade" delay={0.5} duration={0.8}>
- 
+  
      <section className="partner px-4">
                 <div className="max-w-[1905px]">
                     <div className="stars flex items-center justify-center gap-1">
@@ -56,7 +55,8 @@ export default function CompanySlider() {
      
       <div className="absolute top-40px left-0 z-10 h-[40px] w-[20%] bg-gradient-to-r from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0)] pointer-events-none" />
       <div className="absolute top-40px right-0 z-10 h-[40px] w-[20%] bg-gradient-to-l from-[rgba(255,255,255,1)] to-[rgba(255,255,255,0)] pointer-events-none" />
-
+<MotionFadeIn animation="slideUpFade" delay={0.5} duration={0.8}>
+ 
       <Marquee
         direction="right"
         speed={120}
@@ -78,8 +78,8 @@ export default function CompanySlider() {
           </div>
         ))}
       </Marquee>
+    </MotionFadeIn>
     </div>
     </section>
-    </MotionFadeIn>
   );
 }

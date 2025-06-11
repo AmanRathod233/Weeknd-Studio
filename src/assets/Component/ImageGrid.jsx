@@ -12,7 +12,7 @@ export default function ImageGrid({ images, gap }) {
               <div key={index} className="relative overflow-hidden rounded-xl">
                 <a href={image.link} target="_blank"
                 >
-                <MotionFadeIn animation="fade" delay={0.5} duration={0.8}>
+                <MotionFadeIn animation="fade" delay={0.6} duration={0.8}>
                   <img
                     src={image.src}
                     alt={image.alt || `image-${index}`}

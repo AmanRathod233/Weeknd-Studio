@@ -4,7 +4,7 @@ import MotionFadeIn from "./ScrollAnimation";
 export default function Testimonial() {
     return (
          <MotionFadeIn animation="slideUpFade" delay={0.5} duration={0.5}>
-        <section className="Testimonial pb-[50px] md:pb-[100px] 2xl:pb-[200px] z-50 bg-[#fff] relative px-4">
+        <section className="Testimonial pb-[50px] md:pb-[100px] 2xl:pb-[200px] z-99999 bg-[#fff] relative px-4">
             <div className="container max-w-screen mx-auto px-0 sm:px-6 md:px-8 2xl:px-2">
                 <div className="service_heading text-center pb-10 sm:pb-12 md:pb-16">
                     <h3 className="title px-4 py-2 inline-block border border-[#757575] text-[#757575] rounded-xl font-prime text-base sm:text-lg leading-7">

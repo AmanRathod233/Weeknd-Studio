@@ -32,7 +32,9 @@ function Footer() {
 
   const footerStyle = {
     transform: `translateY(${translateY}%) translate3d(0, 0, 0)`,
-    transition: "transform 0.1s ease-out",
+    translate: "none",
+    rotate: "none",
+    scale: "none",
   };
 
   return (

@@ -22,7 +22,7 @@ function Header() {
   };
 
   return (
-    <header className="px-4 lg:px-0 fixed left-0 top-0 w-full z-100 ">
+    <header className="px-4 lg:px-0 fixed left-0 top-0 w-full z-99999999 ">
       {/* Desktop Nav */}
       <MotionFadeIn animation="slideDownFade" delay={0.2} duration={0.8}>
         <nav className=" rounded-full py-[12px] px-[13px] items-center justify-between mx-auto container-header mt-[30px] border border-[#b5b5b5] sm:flex hidden backdrop-blur-sm">
